@@ -22,7 +22,13 @@
   ].join(", ");
 
   function init() {
-    const items = Array.from(document.querySelectorAll(SELECTORS)).filter((el) => !el.classList.contains("cv-reveal"));
+    const fold = window.innerHeight * 0.95;
+    const items = Array.from(document.querySelectorAll(SELECTORS)).filter(
+      (el) =>
+        !el.classList.contains("cv-reveal") &&
+        // never hide content already visible on first paint — that reads as a flash/bounce
+        el.getBoundingClientRect().top > fold
+    );
     if (!items.length) return;
 
     const observer = new IntersectionObserver(
