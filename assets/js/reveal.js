@@ -16,6 +16,8 @@
     ".projects .card",
     ".cv-page > section",
     ".cv-page > div",
+    ".life-grid .life-item",
+    ".life-section",
     ".social",
   ].join(", ");
 

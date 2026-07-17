@@ -11,6 +11,13 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
+
+<p class="projects-github-link">
+  <a href="https://github.com/shanghongsim?tab=repositories" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-github"></i> More on my GitHub
+  </a>
+</p>
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
