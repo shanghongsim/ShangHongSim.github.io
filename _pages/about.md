@@ -23,6 +23,6 @@ My research asks how to make LLMs reliable as they become the way people consume
 
 Before Oumi, I did my M.Eng (Research) at the [DeCLaRe Lab](https://declare-lab.github.io/) at SUTD with [Prof. Soujanya Poria](https://soujanyaporia.github.io/), writing a thesis on reliable RAG systems.
 
-My path into tech began in the sciences. I was premed and wanted to be a doctor, and biology remains a real love of mine. That passion carried me through research in cancer bioinformatics (co-author in *Nucleic Acids Research*), brain-signal decoding, and protein structures in drug-resistant bacteria. The habits I built there, careful experiment design and honest analysis, still shape how I do ML research today.
+My path into tech began in the sciences. I was premed and wanted to be a doctor, and biology remains a real love of mine. That passion carried me through research in cancer bioinformatics (co-author in _Nucleic Acids Research_), brain-signal decoding, and protein structures in drug-resistant bacteria. The habits I built there, careful experiment design and honest analysis, still shape how I do ML research today.
 
 Away from the keyboard, I love baking artisanal bread and am a sucker for trying out new knitting designs. I'm also a huge nature girl, and I feel super fortunate to live in Seattle with the trails of the Pacific Northwest at my doorstep for hiking and biking. You can see what I'm up to [off hours](/life/), and the full record of what I've done lives on my [CV](/cv/).
