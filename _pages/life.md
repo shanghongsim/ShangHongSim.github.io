@@ -18,8 +18,15 @@ nav_order: 5
   {% if pics and pics.size > 0 %}
     <div class="life-grid">
       {% for pic in pics %}
+        {% assign base = pic.image | split: '.' | first | prepend: '/assets/img/life/' %}
         <figure class="life-item">
-          <img src="{{ pic.image | prepend: '/assets/img/life/' | relative_url }}" alt="{{ pic.caption | default: 'off hours photo' }}" loading="lazy">
+          <picture>
+            <source
+              srcset="{{ base | append: '-480.webp' | relative_url }} 480w, {{ base | append: '-800.webp' | relative_url }} 800w"
+              sizes="(max-width: 680px) 50vw, 33vw"
+              type="image/webp">
+            <img src="{{ pic.image | prepend: '/assets/img/life/' | relative_url }}" alt="{{ pic.caption | default: 'off hours photo' }}" loading="lazy">
+          </picture>
           {% if pic.caption %}
             <figcaption>{{ pic.caption }}</figcaption>
           {% endif %}
