@@ -80,5 +80,7 @@ Newsreader serif display type, small-caps kickers, hairline rules, timeline, chi
 badges, and scroll fade-ins (`assets/js/reveal.js`). Accent colors are set in
 `_sass/_themes.scss` (magenta in light mode, cyan in dark mode).
 
-Theme docs, if ever needed: [al-folio README](https://github.com/alshedivat/al-folio)
-and its FAQ/CUSTOMIZE guides (removed from this repo to keep it clean).
+Theme docs, if ever needed: the original theme README is kept locally at
+[`AL_FOLIO_README.md`](AL_FOLIO_README.md); the upstream repo is
+[alshedivat/al-folio](https://github.com/alshedivat/al-folio) (its FAQ/CUSTOMIZE
+guides were removed from this repo to keep it clean).
