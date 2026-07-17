@@ -1,2 +1,5 @@
 linkedin.com
 reddit.com
+# Liquid template syntax in raw source files is not a real link ({{ ... }} / {% ... %} url-encoded)
+%7B%7B
+%7B%25
