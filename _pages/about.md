@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 <p class="about-statement">Post training research to make open models capable <em>and reliable</em>.</p>
 
-I'm a Machine Learning Engineer at [Oumi](https://oumi.ai), where I work on post-training for the enterprise platform. I own on-policy distillation end to end and lead training science for our SFT, RL, and distillation workflows.
+I'm a Machine Learning Engineer at [Oumi](https://oumi.ai), where I work on post-training for the enterprise platform. I own on-policy distillation end to end and actively work on training science for our SFT, RL, and distillation workflows.
 
 My research asks how to make LLMs reliable as they become the way people consume information. With [Trust-Align](https://arxiv.org/abs/2409.11242) (ICLR '25 Oral), we built a metric for groundedness in RAG systems and an alignment dataset that teaches models to cite faithfully, and to refuse when they should. [Ground-GRPO](https://arxiv.org/abs/2506.15522) followed up with RL on verifiable rewards to cut unsupported citations.
 
