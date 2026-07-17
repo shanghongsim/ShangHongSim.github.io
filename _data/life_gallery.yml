@@ -1,0 +1,54 @@
+# Photos for the /life/ page. Images live in assets/img/life/.
+# - Reorder entries to reorder the grid (3 per row on desktop).
+# - caption is optional: leave blank for no caption, or write a short line.
+# - Delete an entry to hide a photo.
+#
+# Arranged so each row mixes one warm close-up with cooler landscapes.
+
+# row 1
+- image: rainier.jpg
+  caption: Mount Rainier
+- image: sourdough-whole.jpg
+  caption: Sourdough, straight out of the oven
+- image: half-moon-bay.jpg
+  caption: Half Moon Bay
+
+# row 2
+- image: summer-berries.jpg
+  caption: Summer berries
+- image: ski-day.jpg
+  caption: Ski szn
+- image: tidal-pool-deception-pass.jpg
+  caption: Tidal pools at Deception Pass
+
+# row 3
+- image: kinabalu-1.jpg
+  caption: Climbing Mount Kinabalu
+- image: vashon.jpg
+  caption: Vashon Island
+- image: first-knitting-project.jpg
+  caption: My first knitting project
+
+# row 4
+- image: yosemite.jpg
+  caption: Yosemite
+- image: sourdough-cut.jpg
+  caption: The crumb shot
+- image: lake-chelan.jpg
+  caption: Lake Chelan
+
+# row 5
+- image: supermarket-flowers.jpg
+  caption: Supermarket flowers
+- image: north-cascades.jpg
+  caption: North Cascades
+- image: biking-bainbridge.jpg
+  caption: Hilly chilly biking!
+
+# row 6
+- image: kinabalu-2.jpg
+  caption: Above the clouds on Kinabalu
+- image: chain-links.jpg
+  caption: Chain links
+- image: bellevue-botanical-gardens.jpg
+  caption: Bellevue Botanical Gardens
