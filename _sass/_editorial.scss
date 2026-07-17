@@ -132,6 +132,12 @@
   margin-bottom: 0.2rem;
 }
 
+/* publications: year headers readable instead of ghost-faint */
+.publications h2.bibliography {
+  color: var(--global-text-color-light) !important;
+  font-size: 1.3rem;
+}
+
 /* publications entries: editorial treatment */
 .publications ol.bibliography > li {
   padding: 1.5rem 0;
@@ -164,7 +170,8 @@
 
   .author {
     font-size: 0.88rem;
-    color: var(--global-text-color-light);
+    color: var(--global-text-color);
+    opacity: 0.85;
 
     a,
     em {
@@ -175,12 +182,14 @@
 
   .periodical {
     font-size: 0.84rem;
-    color: var(--global-text-color-light);
+    color: var(--global-text-color);
+    opacity: 0.8;
   }
 
   .note {
     font-size: 0.8rem;
-    color: var(--global-text-color-light);
+    color: var(--global-text-color);
+    opacity: 0.8;
   }
 
   /* link buttons: quiet chips */
