@@ -132,8 +132,9 @@
   margin-bottom: 0.2rem;
 }
 
-/* publications: year headers readable instead of ghost-faint */
-.publications h2.bibliography {
+/* publications year headers & projects category headers: readable instead of ghost-faint */
+.publications h2.bibliography,
+.projects h2.category {
   color: var(--global-text-color-light) !important;
   font-size: 1.3rem;
 }
