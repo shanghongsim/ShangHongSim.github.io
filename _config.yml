@@ -70,6 +70,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
 google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+cloudflare_analytics: 6c0fa8b028794b9796a32b174847747a # your Cloudflare Web Analytics beacon token (Cloudflare dash -> Analytics & Insights -> Web Analytics)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
@@ -369,6 +370,7 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # -----------------------------------------------------------------------------
 
 enable_google_analytics: false # enables google analytics
+enable_cloudflare_analytics: true # enables Cloudflare Web Analytics (set token below, then flip to true)
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
